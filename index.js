@@ -91,6 +91,8 @@ function countingWins() {
 document.getElementById("reset").addEventListener("click", function(){
     scorePlayer=0;
     scoreComputer=0;
+    document.getElementById("target-you").innerText = "Player score";
+    document.getElementById("target-comp").innerText = "Computer score";
     console.log("reset scores");
 })
 
