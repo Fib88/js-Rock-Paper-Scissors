@@ -80,4 +80,4 @@ function countingWins(){
     console.log("Player has " + scorePlayer + " wins");
 }
 
-
+//document.getElementById("target").innerText =
