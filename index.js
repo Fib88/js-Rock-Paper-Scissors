@@ -76,8 +76,8 @@ else if(playerChoice=="scissors" && computerChoice=="paper"){
 }
  })
 function countingWins() {
-    console.log("Computer has " + scoreComputer + " wins");
-    console.log("Player has " + scorePlayer + " wins");
+    //console.log("Computer has " + scoreComputer + " wins");
+    //console.log("Player has " + scorePlayer + " wins");
     document.getElementById("target-comp").innerText = "Computer has " + scoreComputer + " wins";
     document.getElementById("target-you").innerText = "Player has " + scorePlayer + " wins";
 }
