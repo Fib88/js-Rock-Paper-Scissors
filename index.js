@@ -1,4 +1,3 @@
-//console.log("hello world");
 let randomNumber;
 let scorePlayer = 0;
 let scoreComputer = 0;
@@ -23,7 +22,6 @@ scissors = document.getElementById("scissors").addEventListener("click", functio
     playerChoice = "scissors";
     document.getElementById("choice-player").innerText = "Player picks " + playerChoice;
 })
-
 
  document.getElementById("computerChoice").addEventListener("click", function(){
      randomNumber = Math.floor(Math.random()*3)+1;

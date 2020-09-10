@@ -2,14 +2,12 @@ body{
     margin: 0 auto;
     max-width: 50em;
     font-family: sans-serif;
-    background-color: #EBD4EF;
+    background-color: #C6E0FF;
 }
 
 .container{
     padding: 25px;
     text-align: center;
-    border: solid black 1px;
-
 }
 
 #playerChoice{
@@ -17,4 +15,19 @@ body{
 }
 .buttonStyle{
     padding:25px;
+}
+.scores{
+    margin-top:45px;
+    border-radius: 15px;
+}
+
+.reset{
+   margin-bottom:20px;
+}
+
+.allContent{
+    border: solid #C0C0C0 5px;
+    background-color:#eae5d6;
+    border-radius: 15px;
+    margin-top:15%;
 }
