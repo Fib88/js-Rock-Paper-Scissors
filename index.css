@@ -6,6 +6,15 @@ body{
 }
 
 .container{
+    padding: 25px;
     text-align: center;
+    border: solid black 1px;
+
 }
 
+#playerChoice{
+    padding:20px;
+}
+.buttonStyle{
+    padding:25px;
+}
