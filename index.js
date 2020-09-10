@@ -16,7 +16,7 @@ document.getElementById("paper").addEventListener("click", function(){
     playerChoice = "paper";
 })
 
-scissors = document.getElementById("scissor").addEventListener("click", function(){
+scissors = document.getElementById("scissors").addEventListener("click", function(){
     console.log("player picks scissors");
     playerChoice = "scissors";
 })
@@ -34,14 +34,40 @@ scissors = document.getElementById("scissor").addEventListener("click", function
 
     }
     else if(randomNumber==3){
-        let computerChoice ="scissors";
+        computerChoice ="scissors";
         console.log(" computer picks scissors");
     }
-})
 
-if
+if(computerChoice==playerChoice){
+    console.log("Its a tie")
+}
+else if(playerChoice=="rock" && computerChoice == "paper"){
+    console.log("computer wins");
+    scoreComputer++;
+}
+else if(playerChoice=="rock" && computerChoice== "scissors"){
+    console.log("player wins");
+    scorePlayer++;
+}
 
+else if(playerChoice=="paper" && computerChoice=="rock"){
+    console.log("player wins");
+    scorePlayer++
+}
+else if(playerChoice=="paper" && computerChoice=="scissors"){
+    console.log("computer wins");
+    scoreComputer++
+}
 
+else if(playerChoice=="scissors" && computerChoice=="rock"){
+    console.log("computer wins");
+    scoreComputer++
+}
+else if(playerChoice=="scissors" && computerChoice=="paper"){
+    console.log("player wins");
+    scorePlayer++
+}
+ })
 console.log(scoreComputer);
  console.log(scorePlayer);
 
