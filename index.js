@@ -40,34 +40,44 @@ scissors = document.getElementById("scissors").addEventListener("click", functio
 
 if(computerChoice==playerChoice){
     console.log("Its a tie")
+    countingWins();
 }
 else if(playerChoice=="rock" && computerChoice == "paper"){
     console.log("computer wins");
     scoreComputer++;
+    countingWins();
 }
 else if(playerChoice=="rock" && computerChoice== "scissors"){
     console.log("player wins");
     scorePlayer++;
+    countingWins();
 }
 
 else if(playerChoice=="paper" && computerChoice=="rock"){
     console.log("player wins");
     scorePlayer++
+    countingWins();
 }
 else if(playerChoice=="paper" && computerChoice=="scissors"){
     console.log("computer wins");
     scoreComputer++
+    countingWins();
 }
 
 else if(playerChoice=="scissors" && computerChoice=="rock"){
     console.log("computer wins");
     scoreComputer++
+    countingWins();
 }
 else if(playerChoice=="scissors" && computerChoice=="paper"){
     console.log("player wins");
     scorePlayer++
+    countingWins();
 }
  })
-console.log(scoreComputer);
- console.log(scorePlayer);
+function countingWins(){
+    console.log("Computer has " + scoreComputer + " wins");
+    console.log("Player has " + scorePlayer + " wins");
+}
+
 
