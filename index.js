@@ -75,9 +75,18 @@ else if(playerChoice=="scissors" && computerChoice=="paper"){
     countingWins();
 }
  })
-function countingWins(){
+function countingWins() {
     console.log("Computer has " + scoreComputer + " wins");
     console.log("Player has " + scorePlayer + " wins");
+    document.getElementById("target-comp").innerText = "Computer has " + scoreComputer + " wins";
+    document.getElementById("target-you").innerText = "Player has " + scorePlayer + " wins";
 }
+document.getElementById("reset").addEventListener("click", function(){
+    scorePlayer=0;
+    scoreComputer=0;
+    console.log("reset scores");
+})
 
-//document.getElementById("target").innerText =
+
+
+
