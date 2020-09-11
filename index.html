@@ -10,21 +10,39 @@
 </head>
 <body>
 <div class="allContent">
-<div class = "container">
-    <div id = "playerChoice">
-        <button id ="rock">Rock</button>
-        <button id = paper>Paper</button>
-        <button id = scissors>Scissors</button>
-    </div>
-<div>
-<div class="buttonStyle">
-    <button id = "computerChoice">computerChoice</button>
-</div>
+<div class = "container1">
 
-<div>
+    <table>
+        <tr>
+            <th>
+    <div id = "playerChoice">
+        <div id="geo">
+            <button id ="rock">Rock</button>
+        </div>
+        <div id="bell">
+            <button id = paper>Paper</button>
+        </div>
+        <div id="krab">
+            <button id = scissors>Scissors</button>
+        </div>
+    </div>
+            </th>
+            <th>
+    <div id="images">
+        <img src = "images/geodude.png" id="geoDudePic">
+        <img src = "images/bellsprout.png" id="bellSproutPic">
+        <img src = "images/krabby.png" id="krabbyPic">
+    </div>
+            </th>
+            <th>
+<div class="buttonStyle">
+    <button id = "computerChoice">Trainer Rival</button>
     <button id="reset">Reset</button>
 </div>
-</div>
+
+        </tr>
+    </table>
+    <div class="clearfix"></div>
 
 <div class = scores>
     <p id="choice-player">You have picked...</p>

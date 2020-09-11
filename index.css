@@ -5,20 +5,31 @@ body{
     background-color: #C6E0FF;
 }
 
-.container{
+.container1{
     padding: 25px;
-    text-align: center;
+    /*text-align:left;*/
+    /*flex-wrap:wrap;*/
+
 }
 
 #playerChoice{
     padding:20px;
+    width: 25%;
+    margin-left:30px;
 }
 .buttonStyle{
     padding:25px;
+    /*text-align:right;*/
+    width:25%;
 }
+#computerChoice{
+    margin-bottom: 50px;
+}
+
 .scores{
     margin-top:45px;
     border-radius: 15px;
+    text-align:center;
 }
 
 .reset{
@@ -29,5 +40,39 @@ body{
     border: solid #C0C0C0 5px;
     background-color:#eae5d6;
     border-radius: 15px;
-    margin-top:15%;
+    margin-top:40px;
+    margin-bottom:40px;
 }
+
+button{
+    border:solid #6ecbb8 3px;
+    border-radius: 10px;
+    background-color: darkseagreen;
+    height: 70px;
+    width: 155px;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img{
+    height: 70px;
+    width: 120px;
+}
+
+th{
+    width:25%;
+}
+
+table{
+    justify-content: center;
+}
+
+
+
