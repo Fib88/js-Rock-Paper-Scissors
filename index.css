@@ -6,7 +6,7 @@ body{
 }
 
 .container1{
-    padding: 25px;
+    padding: 20px;
     /*text-align:left;*/
     /*flex-wrap:wrap;*/
 
@@ -28,8 +28,9 @@ body{
 
 .scores{
     margin-top:45px;
-    border-radius: 15px;
     text-align:center;
+    border: solid black 3px;
+    background-color:white;
 }
 
 .reset{
@@ -37,11 +38,11 @@ body{
 }
 
 .allContent{
-    border: solid #C0C0C0 5px;
+    border: solid #C0C0C0 10px;
     background-color:#eae5d6;
     border-radius: 15px;
-    margin-top:40px;
-    margin-bottom:40px;
+    margin-top:2px;
+    margin-bottom:2px;
 }
 
 button{
@@ -64,6 +65,8 @@ button{
 img{
     height: 70px;
     width: 120px;
+    border: solid #6ecbb8 3px;
+    border-radius: 10px;
 }
 
 th{
@@ -72,6 +75,10 @@ th{
 
 table{
     justify-content: center;
+}
+
+h3 {
+    text-align: center;
 }
 
 

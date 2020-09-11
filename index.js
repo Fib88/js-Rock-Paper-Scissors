@@ -7,38 +7,38 @@ let computerChoice = "";
 document.getElementById("rock").addEventListener("click", function(){
     console.log("player picks rock");
     playerChoice = "rock";
-    document.getElementById("choice-player").innerText = "Player picks " + playerChoice;
+    document.getElementById("choice-player").innerText = "Trainer picks " + playerChoice;
 
 })
 
 document.getElementById("paper").addEventListener("click", function(){
     console.log("player picks paper");
     playerChoice = "paper";
-    document.getElementById("choice-player").innerText = "Player picks " + playerChoice;
+    document.getElementById("choice-player").innerText = "Trainer picks " + playerChoice;
 })
 
 scissors = document.getElementById("scissors").addEventListener("click", function(){
     console.log("player picks scissors");
     playerChoice = "scissors";
-    document.getElementById("choice-player").innerText = "Player picks " + playerChoice;
+    document.getElementById("choice-player").innerText = "Trainer picks " + playerChoice;
 })
 
  document.getElementById("computerChoice").addEventListener("click", function(){
      randomNumber = Math.floor(Math.random()*3)+1;
     if (randomNumber==1){
         computerChoice = "rock";
-        document.getElementById("choice-computer").innerText = "Computer picks " + computerChoice;
+        document.getElementById("choice-computer").innerText = "Rival picks " + computerChoice;
         console.log(" computer picks rock");
     }
     else if(randomNumber==2){
          computerChoice = "paper";
-        document.getElementById("choice-computer").innerText = "Computer picks " + computerChoice;
+        document.getElementById("choice-computer").innerText = "Rival picks " + computerChoice;
         console.log(" computer picks paper");
 
     }
     else if(randomNumber==3){
         computerChoice ="scissors";
-        document.getElementById("choice-computer").innerText = "Computer picks " + computerChoice;
+        document.getElementById("choice-computer").innerText = "Rival picks " + computerChoice;
         console.log(" computer picks scissors");
     }
 
@@ -83,14 +83,14 @@ function countingWins() {
     //console.log("Computer has " + scoreComputer + " wins");
     //console.log("Player has " + scorePlayer + " wins");
 
-    document.getElementById("target-comp").innerText = "Computer has " + scoreComputer + " wins";
-    document.getElementById("target-you").innerText = "Player has " + scorePlayer + " wins";
+    document.getElementById("target-comp").innerText = "Rival has " + scoreComputer + " wins";
+    document.getElementById("target-you").innerText = "Trainer has " + scorePlayer + " wins";
 }
 document.getElementById("reset").addEventListener("click", function(){
     scorePlayer=0;
     scoreComputer=0;
-    document.getElementById("target-you").innerText = "Player score";
-    document.getElementById("target-comp").innerText = "Computer score";
+    document.getElementById("target-you").innerText = "Trainer score";
+    document.getElementById("target-comp").innerText = "Rival score";
     console.log("reset scores");
 })
 
