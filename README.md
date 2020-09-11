@@ -10,3 +10,7 @@ Currently the only output is to console so I'm working on getting it on the html
 
 To be continued
 
+Update:
+
+The game logic works and now I'm working on styling the page.
+I had some troubles using flex-box and opted to use a table to place my content where I want it to.
