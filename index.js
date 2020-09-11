@@ -56,7 +56,6 @@ else if(playerChoice=="rock" && computerChoice== "scissors"){
     scorePlayer++;
     countingWins();
 }
-
 else if(playerChoice=="paper" && computerChoice=="rock"){
     console.log("player wins");
     scorePlayer++
@@ -67,7 +66,6 @@ else if(playerChoice=="paper" && computerChoice=="scissors"){
     scoreComputer++
     countingWins();
 }
-
 else if(playerChoice=="scissors" && computerChoice=="rock"){
     console.log("computer wins");
     scoreComputer++
@@ -80,9 +78,6 @@ else if(playerChoice=="scissors" && computerChoice=="paper"){
 }
  })
 function countingWins() {
-    //console.log("Computer has " + scoreComputer + " wins");
-    //console.log("Player has " + scorePlayer + " wins");
-
     document.getElementById("target-comp").innerText = "Rival has " + scoreComputer + " wins";
     document.getElementById("target-you").innerText = "Trainer has " + scorePlayer + " wins";
 }
@@ -93,6 +88,12 @@ document.getElementById("reset").addEventListener("click", function(){
     document.getElementById("target-comp").innerText = "Rival score";
     console.log("reset scores");
 })
+
+
+
+
+
+
 
 
 
