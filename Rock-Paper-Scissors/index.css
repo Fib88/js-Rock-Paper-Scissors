@@ -33,6 +33,12 @@ body{
     background-color:white;
 }
 
+.scoreContent{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .reset{
    margin-bottom:20px;
 }
@@ -102,17 +108,17 @@ h3 {
 
 }
 
-.pokéleft{
+.pokéLeft{
     float:left;
 
 }
 
-.pokéright{
+.pokéRight{
     float:right;
 }
 
-.poképic{
-    height:30px;
-    width:30px;
+.pokéPic{
+    height:120px;
+    width:120px;
     border:none;
 }

@@ -8,19 +8,21 @@ document.getElementById("rock").addEventListener("click", function(){
     console.log("player picks rock");
     playerChoice = "rock";
     document.getElementById("choice-player").innerText = "Trainer picks " + playerChoice;
-
+    document.getElementById("pokéChangeLeft").src = "https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/geodude.png";
 })
 
 document.getElementById("paper").addEventListener("click", function(){
     console.log("player picks paper");
     playerChoice = "paper";
     document.getElementById("choice-player").innerText = "Trainer picks " + playerChoice;
+    document.getElementById("pokéChangeLeft").src ="https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/bellsprout.png";
 })
 
 scissors = document.getElementById("scissors").addEventListener("click", function(){
     console.log("player picks scissors");
     playerChoice = "scissors";
     document.getElementById("choice-player").innerText = "Trainer picks " + playerChoice;
+    document.getElementById("pokéChangeLeft").src = "https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/krabby.png";
 })
 
  document.getElementById("computerChoice").addEventListener("click", function(){
@@ -29,17 +31,19 @@ scissors = document.getElementById("scissors").addEventListener("click", functio
         computerChoice = "rock";
         document.getElementById("choice-computer").innerText = "Rival picks " + computerChoice;
         console.log(" computer picks rock");
+        document.getElementById("pokéChangeRight").src = "https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/geodude.png";
     }
     else if(randomNumber==2){
          computerChoice = "paper";
         document.getElementById("choice-computer").innerText = "Rival picks " + computerChoice;
         console.log(" computer picks paper");
-
+        document.getElementById("pokéChangeRight").src = "https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/bellsprout.png";
     }
     else if(randomNumber==3){
         computerChoice ="scissors";
         document.getElementById("choice-computer").innerText = "Rival picks " + computerChoice;
         console.log(" computer picks scissors");
+        document.getElementById("pokéChangeRight").src = "https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/krabby.png";
     }
 
 if(computerChoice==playerChoice){
@@ -87,6 +91,8 @@ document.getElementById("reset").addEventListener("click", function(){
     document.getElementById("target-you").innerText = "Trainer score";
     document.getElementById("target-comp").innerText = "Rival score";
     console.log("reset scores");
+    document.getElementById("pokéChangeLeft").src = "https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/pokeball_PNG24.png";
+    document.getElementById("pokéChangeRight").src = "https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/pokeball_PNG24.png";
 })
 
 
