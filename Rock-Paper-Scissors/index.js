@@ -88,13 +88,14 @@ function countingWins() {
 document.getElementById("reset").addEventListener("click", function(){
     scorePlayer=0;
     scoreComputer=0;
+    document.getElementById("choice-player").innerText = "Trainer has picked...";
+    document.getElementById("choice-computer").innerText = "Rival has picked...";
     document.getElementById("target-you").innerText = "Trainer score";
     document.getElementById("target-comp").innerText = "Rival score";
     console.log("reset scores");
     document.getElementById("pokéChangeLeft").src = "https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/pokeball_PNG24.png";
     document.getElementById("pokéChangeRight").src = "https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/pokeball_PNG24.png";
 })
-
 
 
 
