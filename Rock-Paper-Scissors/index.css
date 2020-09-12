@@ -102,6 +102,17 @@ h3 {
 
 }
 
+.pokéleft{
+    float:left;
 
+}
 
+.pokéright{
+    float:right;
+}
 
+.poképic{
+    height:30px;
+    width:30px;
+    border:none;
+}
