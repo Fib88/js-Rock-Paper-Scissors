@@ -7,20 +7,16 @@ body{
 
 .container1{
     padding: 15px;
-    /*text-align:left;*/
-    /*flex-wrap:wrap;*/
-
 }
 
 #playerChoice{
-    padding:20px;
+    padding:5px;
     width: 25%;
-    margin-left:30px;
 }
 .buttonStyle{
-    padding:25px;
-    /*text-align:right;*/
-    width:25%;
+    padding:15px;
+    width:70px;
+    margin-right:55px;
 }
 #computerChoice{
     margin-bottom: 50px;
@@ -35,7 +31,7 @@ body{
 
 .scoreContent{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -55,7 +51,7 @@ button{
     border:solid #6ecbb8 3px;
     border-radius: 10px;
     background-color: darkseagreen;
-    height: 70px;
+    height: 45px;
     width: 155px;
     font-weight:bold;
     margin-bottom: 10px;
@@ -118,7 +114,7 @@ h3 {
 }
 
 .pokéPic{
-    height:120px;
-    width:120px;
+    height:200px;
+    width:200px;
     border:none;
 }

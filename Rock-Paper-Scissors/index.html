@@ -18,17 +18,8 @@
     <table>
         <tr>
             <th>
-    <div id = "playerChoice">
-        <div id="geo">
-            <button id ="rock"><span class = "current">Geodude</span><span class="onHoverType">Rock</span></button>
-        </div>
-        <div id="bell">
-            <button id = paper><span class = "current">Bellsprout</span><span class="onHoverType">Paper</span></button>
-        </div>
-        <div id="krab">
-            <button id = scissors><span class="current">Krabby</span><span class="onHoverType">Scissors</span></button>
-        </div>
-    </div>
+                <img class="pokéPic pokéLeft" id="pokéChangeLeft"  src ="https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/pokeball_PNG24.png">
+
             </th>
             <th>
     <div id="images">
@@ -38,10 +29,8 @@
     </div>
             </th>
             <th>
-<div class="buttonStyle">
-    <button id = "computerChoice">Rival bad guy</button>
-    <button id="reset">Reset</button>
-</div>
+                <img  class="pokéPic pokéRight" id="pokéChangeRight" src ="https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/pokeball_PNG24.png">
+
 
         </tr>
     </table>
@@ -49,14 +38,27 @@
 
     <div class = scores>
         <div class="scoreContent">
-            <img class="pokéPic pokéLeft" id="pokéChangeLeft"  src ="https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/pokeball_PNG24.png">
+            <div id = "playerChoice">
+                <div id="geo">
+                    <button id ="rock"><span class = "current">Geodude</span><span class="onHoverType">Rock</span></button>
+                </div>
+                <div id="bell">
+                    <button id = paper><span class = "current">Bellsprout</span><span class="onHoverType">Paper</span></button>
+                </div>
+                <div id="krab">
+                    <button id = scissors><span class="current">Krabby</span><span class="onHoverType">Scissors</span></button>
+                </div>
+            </div>
             <div class =scoresText>
                 <p id="choice-player">Trainer has picked...</p>
                 <p id="choice-computer">Rival has picked...</p>
                 <p id="target-comp">Rival wins</p>
                 <p id="target-you">Trainer wins</p>
             </div>
-            <img  class="pokéPic pokéRight" id="pokéChangeRight" src ="https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/pokeball_PNG24.png">
+            <div class="buttonStyle">
+                <button id = "computerChoice">Rival bad guy</button>
+                <button id="reset">Reset</button>
+            </div>
         </div>
     </div>
 </div>
