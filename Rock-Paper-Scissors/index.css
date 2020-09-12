@@ -53,6 +53,8 @@ button{
     width: 155px;
     font-weight:bold;
     margin-bottom: 10px;
+
+
 }
 
 
@@ -68,6 +70,22 @@ img{
     border: solid #6ecbb8 3px;
     border-radius: 10px;
 }
+
+button:hover{
+    filter:brightness(140%);
+
+}
+button:hover .onHoverType{
+    display:inline;
+}
+
+.onHoverType{
+    display:none;
+}
+button:hover .current{
+    display:none;
+}
+
 
 th{
     width:25%;
