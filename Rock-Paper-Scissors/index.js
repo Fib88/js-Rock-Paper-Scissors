@@ -84,6 +84,8 @@ else if(playerChoice=="scissors" && computerChoice=="paper"){
 function countingWins() {
     document.getElementById("target-comp").innerText = "Rival has " + scoreComputer + " wins";
     document.getElementById("target-you").innerText = "Trainer has " + scorePlayer + " wins";
+    document.getElementById("combatScoreLeft").innerText = scorePlayer;
+    document.getElementById("combatScoreRight").innerText = scoreComputer;
 }
 document.getElementById("reset").addEventListener("click", function(){
     scorePlayer=0;
@@ -95,6 +97,8 @@ document.getElementById("reset").addEventListener("click", function(){
     console.log("reset scores");
     document.getElementById("pokéChangeLeft").src = "https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/pokeball_PNG24.png";
     document.getElementById("pokéChangeRight").src = "https://raw.githubusercontent.com/Fib88/js-games/master/Rock-Paper-Scissors/images/pokeball_PNG24.png";
+    document.getElementById("combatScoreLeft").innerHTML = scorePlayer;
+    document.getElementById("combatScoreRight").innerHTML = scoreComputer;
 })
 
 
