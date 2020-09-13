@@ -37,3 +37,6 @@ this way.
 Lost a lot of time trying to publish using absolute paths for the images. Apparently you need relative paths to publish images on git, resulting in quite some confusion on my end.
 As I had put all my images in a seperate folder I couldn't reach them. I changed the location of the folders and will ask a colleague on monday.
 
+ ## Update 4:
+ Found out I forgot to push my updated file paths to github. Nothing to be seen here move along. 
+
