@@ -1,5 +1,7 @@
 # js-games
 
+ https://fib88.github.io/js-Rock-Paper-Scissors/
+
 # Game Rules:
 
 #### You are challenged by Rival Pokémon Trainer. 
